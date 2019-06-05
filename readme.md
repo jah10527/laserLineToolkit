@@ -6,7 +6,7 @@
 
 It is designed to calibrate the line structured light sensor automatically as well as the camera parameters, and the 3D scanner system usually is something like the figure shown below, a camera and a laser firmly fixed together.
 
-![scanner](res/lineLaser.jpg)
+![scanner](https://raw.github.com/jah10527/laserLineToolkit/master/res/lineLaser.jpg)
 
 ---
 
@@ -38,21 +38,21 @@ A new test program issued at June 3rd 2019, called LineLaserCalibration-2019.6.e
 
 The main window will show like below when you double click LineLaserCalibration-2019.6.exe.
 
-![mainwin](mainwin.jpg)
+![mainwin](https://raw.github.com/jah10527/laserLineToolkit/master/res/mainwin.jpg)
 
 You are supposed to activate this tool at first before have a try to calibrate for every time you open this tool. Clicking the calibrate button, the calibrate window will show as below.
 
-![calibrate](res/calib.jpg)
+![calibrate](https://raw.github.com/jah10527/laserLineToolkit/master/res/calib.jpg)
 
 The load images button are used to select the images for calibrate. Once a directory is selected all the images in the fold are listed in the text browser below the button. Then clicking the calibration button,  the camera parameter and the light plain parameter are estimated at the same time. (Some images are shown in the process, just pressing any key to continue.)
 
-![image list](res/imageList.jpg)
+![image list](https://raw.github.com/jah10527/laserLineToolkit/master/res/imageList.jpg)
 
 The results are written in the same directory as the exe, which are called like camera_result....txt for camera parameter and stripe_result....txt for laser parameter.
 
 If you want to get a direct view of the result in 3D space, you can click the visualize button and the figure maybe like as below.
 
-![visualize](res/visualize.jpg)
+![visualize](https://raw.github.com/jah10527/laserLineToolkit/master/res/visualize.jpg)
 
 
 
