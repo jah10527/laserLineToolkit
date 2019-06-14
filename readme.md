@@ -4,13 +4,13 @@
 
 *This tool is available for free now!*
 
-It is designed to calibrate the line structured light sensor automatically as well as the camera parameters, and the 3D scanner system usually is something like the figure shown below, a camera and a laser firmly fixed together.
+It is designed to calibrate the line structured light sensor automatically as well as the camera parameters, and the 3D scanner system usually is something like the figure shown below, where a camera and a laser are firmly fixed together.
 
 ![scanner](https://github.com/jah10527/laserLineToolkit/raw/master/res/lineLaser.jpg)
 
+### 
 ---
 
-### howto
 Just clicking the laserScanner.exe file in this directory to open the mainwindow, there is a calibration menu in the menu bar, and activating it the calibration window will show you on the screen if no problem occurs and then you can have a try. By the way, there are some example images in the sample subdirectory.
 
 Tested on win10-64bit, win7-64bit and ubuntu1604-64bit, however this version is not for any Linux system.
@@ -18,7 +18,9 @@ Tested on win10-64bit, win7-64bit and ubuntu1604-64bit, however this version is 
 If there is anything puzzling around you about this software, please send an email to me, and I will try my best.
 
 Email:jah10527@126.com
+
 Antonio Fan
+
 March 30th 2017
 
 Beijing China
