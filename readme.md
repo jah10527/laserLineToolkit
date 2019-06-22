@@ -36,6 +36,8 @@ A new test program issued at June 3rd 2019, called LineLaserCalibration-2019.6.e
 - more robust
 - add visualization
 
+There is a *reconstruct.cpp* file along with the tool, which you can exploit to reconstruct anything as your like. 
+
 ### guidance
 
 The main window will show like below when you double click LineLaserCalibration-2019.6.exe.
