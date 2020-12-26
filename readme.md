@@ -11,7 +11,7 @@ It is designed to calibrate the line structured light sensor automatically as we
 ### 
 ---
 
-Just clicking the laserScanner.exe file in this directory to open the mainwindow, there is a calibration menu in the menu bar, and activating it the calibration window will show you on the screen if no problem occurs and then you can have a try. By the way, there are some example images in the sample subdirectory.
+Just clicking the *laserScanner.exe* file in this directory to open the mainwindow, there is a calibration menu in the menu bar, and activating it the calibration window will show you on the screen if no problem occurs and then you can have a try. By the way, there are some example images in the *exampleImage* subdirectory.
 
 Tested on win10-64bit, win7-64bit and ubuntu1604-64bit, however this version is not for any Linux system.
 
@@ -29,18 +29,22 @@ Beijing China
 
 ### update
 
-A new test program issued at April 22nd 2018, called LineLaserCalibration-2018.4.exe
+A new test program released at April 22nd 2018, named LineLaserCalibration-2018.4.exe
 
-A new test program issued at June 3rd 2019, called LineLaserCalibration-2019.6.exe
+A new test program released at June 3rd 2019, named LineLaserCalibration-2019.6.exe
 
 - more robust
 - add visualization
 
 There is a *reconstruct.cpp* file along with the tool, which you can exploit to reconstruct anything as your like. 
 
+A new test program released at Dec. 26, 2020, named LineLaserCalibration-2020.12.exe
+
+- add log file, which can be helpful to check whether your images is good enough when finding chessboard via cv::findChessboardCorners(gray, patternsize, corners, cv::CALIB_CB_ADAPTIVE_THRESH + cv::CALIB_CB_NORMALIZE_IMAGE);
+
 ### guidance
 
-The main window will show like below when you double click LineLaserCalibration-2019.6.exe.
+The main window will show like below when you double click LineLaserCalibration-2019.6.exe. and welcome to donate!
 
 ![mainwin](https://github.com/jah10527/laserLineToolkit/raw/master/res/mainwin.jpg)
 
@@ -57,6 +61,18 @@ The results are written in the same directory as the exe, which are called like 
 If you want to get a direct view of the result in 3D space, you can click the visualize button and the figure maybe like as below.
 
 ![visualize](https://github.com/jah10527/laserLineToolkit/raw/master/res/visualize.jpg)
+
+
+
+### Tips
+
+One should avoid the bad situation that those lines containing control points are co-linear and close to each other as below.
+
+![visualize](https://github.com/jah10527/laserLineToolkit/raw/master/res/visualize_badcase.jpg)
+
+
+
+cv::findChessboardCorners may be time consuming, just be patient.
 
 
 
