@@ -40,7 +40,7 @@ There is a *reconstruct.cpp* file along with the tool, which you can exploit to 
 
 A new test program released at Dec. 26, 2020, named LineLaserCalibration-2020.12.exe
 
-- add log file, which can be helpful to check whether your images is good enough when finding chessboard via cv::findChessboardCorners(gray, patternsize, corners, cv::CALIB_CB_ADAPTIVE_THRESH + cv::CALIB_CB_NORMALIZE_IMAGE);
+- add log file, which can be helpful to check whether your images are good enough when finding chessboard via cv::findChessboardCorners(gray, patternsize, corners, cv::CALIB_CB_ADAPTIVE_THRESH + cv::CALIB_CB_NORMALIZE_IMAGE);
 
 ### guidance
 
@@ -72,7 +72,7 @@ One should avoid the bad situation that those lines containing control points ar
 
 
 
-cv::findChessboardCorners may be time consuming, just be patient.
+The cv::findChessboardCorners may be time-consuming, just be patient.
 
 
 
