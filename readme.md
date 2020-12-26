@@ -44,7 +44,7 @@ A new test program released at Dec. 26, 2020, named LineLaserCalibration-2020.12
 
 ### guidance
 
-The main window will show like below when you double click LineLaserCalibration-2019.6.exe. and welcome to donate!
+The main window will show like below when you double click LineLaserCalibration-2020.12.exe. and welcome to donate!
 
 ![mainwin](https://github.com/jah10527/laserLineToolkit/raw/master/res/mainwin.jpg)
 
